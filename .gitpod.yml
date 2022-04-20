@@ -1,5 +1,4 @@
-image:
-  file: .gitpod/.app.Dockerfile
+image: ghcr.io/adamsuk/python-env:latest
 
 vscode:
   extensions:

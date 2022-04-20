@@ -35,5 +35,5 @@ jobs:
           file: .gitpod/.gitpod.Dockerfile
           push: true
           tags: |
-            ${{ github.github.repository }}:latest
-            ${{ github.github.repository }}:${{ steps.vars.outputs.VERSION }}
+            ${{ github.repository }}:latest
+            ${{ github.repository }}:${{ steps.vars.outputs.VERSION }}

@@ -30,5 +30,5 @@ jobs:
           file: .gitpod/.gitpod.Dockerfile
           push: true
           tags: |
-            ${{ github.repository }}:latest
-            ${{ github.repository }}:${{ steps.vars.outputs.VERSION }}
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:${{ steps.vars.outputs.VERSION }}
